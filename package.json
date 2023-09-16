@@ -1,0 +1,53 @@
+{
+  "name": "bx24-test-work",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "webpack serve --config webpack.config.js",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@date-io/date-fns": "^2.17.0",
+    "@mdi/font": "7.0.96",
+    "bx24": "^0.1.3",
+    "core-js": "^3.29.0",
+    "dayjs": "^1.11.9",
+    "roboto-fontface": "*",
+    "vue": "^3.2.0",
+    "vue-router": "^4.0.0",
+    "vuetify": "^3.0.0",
+    "webfontloader": "^1.0.0",
+    "webpack-plugin-vuetify": "^2.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "css-loader": "^6.8.1",
+    "eslint": "^8.37.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "html-webpack-plugin": "^5.5.3",
+    "node-sass": "^9.0.0",
+    "path": "^0.12.7",
+    "prettier": "^2.4.1",
+    "sass": "^1.60.0",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "vite": "^4.2.0",
+    "vite-plugin-vuetify": "^1.0.0",
+    "vue-loader": "^17.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
